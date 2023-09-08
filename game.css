@@ -7,7 +7,7 @@ body {
   display: grid;
   place-items: center;
   overflow: hidden;
-  background-image: url("C:/Users/Jay/Desktop/Extra/SnakesAndLadder/gameback.png");
+  background-image: url("gameback.png");
   background-size: 1550px 750px;
   background-repeat: no-repeat;
 }
