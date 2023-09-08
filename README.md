@@ -2,8 +2,6 @@
 ## Description:
 Welcome to the Snake and Ladder Game, a digital adaptation of the classic two-player board game, built with HTML, CSS, and JavaScript!
 
-!<Screenshot (86).png>
-!<Screenshot (87).png>
 
 ## Table of Contents
 
@@ -14,8 +12,6 @@ Welcome to the Snake and Ladder Game, a digital adaptation of the classic two-pl
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
-- [Acknowledgments](#acknowledgments)
 - [Contact](#contact)
 
 ## Description
@@ -50,7 +46,7 @@ To enjoy the Snake and Ladder Game locally, follow these simple steps:
 1. Clone github repository. 
 2. Open index.html in your web browser.
 
-# Usage
+## Usage
 Players take turns rolling the dice by clicking the "Roll" button.
 
 Move your game piece forward according to the number rolled.
@@ -59,10 +55,10 @@ Watch out for snakes, which send you backward, and aim for ladders to advance qu
 
 The first player to reach the final square wins the game!
 
-# Contributing
+## Contributing
 We welcome contributions! If you'd like to contribute to the Snake and Ladder Game, please check out our Contributing Guidelines for details on how to get started.
 
-# Contact
-Jay Valaki
-GitHub: jayvalaki1706
+## Contact
+# Jay Valaki
+# GitHub: jayvalaki1706
 Feel free to reach out with any questions, feedback, or suggestions. Have a fantastic time playing Snake and Ladder with your friends and family!
