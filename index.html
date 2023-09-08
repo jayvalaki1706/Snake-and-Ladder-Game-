@@ -1,0 +1,116 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Game</title>
+    <style>
+        #playername{
+            color: darkslateblue;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 30px;
+            text-align: center;
+            margin-top: 130px;
+            border: solid rgb(0, 94, 255) 5px;
+            width: 800px;
+            height: 280px;
+            margin-left: 350px;
+            background-color: rgb(126, 168, 165);
+            opacity: 80%;
+        }
+        #textbox1,#textbox2{
+            width: 200px;
+            height: 25px;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 25px;
+            text-align: center;
+            color: rgb(13, 54, 54);
+            border-color: red;
+            text-transform: capitalize;
+            background-color: bisque;
+        }
+        #head{
+            text-align: center;
+            margin-top: 80px;
+            margin-left: 180px;
+            font-size: 50px;
+            font-weight: 100px;
+            color: darkgreen;
+            border: solid 5px;
+            width: 1150px;
+            height: 65px;
+            background-color: lightslategrey;
+        }
+        #submit{
+            text-align: center;
+            font-size: 25px;
+            font-weight: 100px;
+            color: rebeccapurple;
+            margin-top: 50px;
+            background-color: yellowgreen;
+        }
+        body {
+            background-image: url("C:/Users/Jay/Desktop/Extra/SnakesAndLadder/PC GAMER BACKGROUND WALLPAPER HD_ 4K_ 8K.png");
+            background-size: cover;
+            background-repeat: no-repeat;
+            opacity: 95%;
+        }
+        #player1{
+            color: red;
+        }
+        #player2{
+            color: yellow;
+        }
+        #footer{
+            text-align: center;
+            font-family: 'Times New Roman', Times, serif;
+            margin-top: 80px;
+            font-size: 25px;
+            color: whitesmoke;
+            opacity: 70%;
+            width: 800px;
+            margin-left: 350px;
+        }
+        #copyright{
+            color: whitesmoke;
+        }
+    </style>
+    <script>
+        function oksubmit() {
+            const username1 = document.getElementById('textbox1').value;
+            const username2 = document.getElementById('textbox2').value;
+            
+            if(username1!="" || username2!="")
+            {
+                sessionStorage.setItem('username1', username1);
+                sessionStorage.setItem('username2', username2);
+                alert('Welcome to Game!');
+                var newloc = "file:///C:/Users/Jay/Desktop/Extra/SnakesAndLadder/index1.html";
+                window.location.href = newloc;
+            }
+            else
+            {
+                alert("Please fill the details");
+            }
+
+            
+        }
+    </script>
+</head>
+
+
+<body>
+    <h1 id="head">
+        Welcome to Snake and Ladder Game 
+    </h1>
+    <div id="playername">
+        <br>
+        <label id="player1">Enter Player 1 : </label><input type="text" id="textbox1" required><br><br>
+        <label id="player2">Enter Player 2 : </label><input type="text" id="textbox2" required><br>
+        <button id="submit" onclick="oksubmit()">Play The Game</button>
+    </div>
+    <div id="footer">
+        © Copyright 2023 by <a href="https://www.linkedin.com/in/jay-valaki-735712236/" target="_blank" id="copyright">Jay Valaki</a> . All Rights Reserved.
+    </div>
+</body>
+
+</html>
