@@ -32,7 +32,7 @@ The Snake and Ladder Game is a fun and exciting multiplayer board game where two
 
 ## Demo
 
-You can play the game live right here: https://snake-and-ladder-game-t9lb.onrender.com
+You can play the game live right here: https://main--timely-chebakia-7a8a98.netlify.app/index1.html
 
 ## Technologies Used
 
